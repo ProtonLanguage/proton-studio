@@ -31,3 +31,4 @@ npm start
 | Delete | Delete selected object |
 | Ctrl+S | Save current script |
 | Ctrl+Z | Undo |
+| Ctrl+F | Fuck |
