@@ -1,0 +1,19 @@
+{
+  "name": "proton-studio",
+  "version": "0.1.0",
+  "description": "Proton# Studio — Official game development environment",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.protonlanguage.studio",
+    "productName": "Proton# Studio",
+    "win": { "target": "nsis" },
+    "mac": { "target": "dmg" }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}
